@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f8fa;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(110deg, #6a88f7 60%, #8be1fc 100%);
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: text-decoration 0.2s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero h1 {
+  font-size: 2.7rem;
+  margin-bottom: 18px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background: #fff;
+  color: #6a88f7;
+  padding: 14px 38px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+  transition: background 0.2s, color 0.2s;
+}
+
+.cta-button:hover {
+  background: #6a88f7;
+  color: #fff;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+section {
+  margin-bottom: 54px;
+}
+
+.features-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(106,136,247,0.07);
+  padding: 24px;
+  flex: 1;
+  min-width: 220px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contact input, #contact textarea {
+  padding: 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+#contact button {
+  background: #6a88f7;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.07rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+#contact button:hover {
+  background: #4d6ad9;
+}
+
+#presentation {
+  margin-bottom: 54px;
+  text-align: center;
+}
+#presentation h2 {
+  margin-bottom: 18px;
+}
+#presentation a {
+  display: inline-block;
+  margin-top: 1em;
+  color: #6a88f7;
+  font-weight: 500;
+  text-decoration: none;
+}
+#presentation a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 22px 0;
+  background: #e9ecef;
+  color: #444;
+  font-size: 0.97rem;
+  margin-top: 40px;
+}
